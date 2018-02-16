@@ -72,9 +72,11 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatasourceMultiRootTreeview.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResolvePresentationTokens.cs" />
     <Compile Include="ResolveTokenRelativeQuerySource.cs" />
+    <Compile Include="SupportMultiRootTreeList.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.9582.config">
